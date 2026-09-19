@@ -1,0 +1,21 @@
+# Java / Maven / Spring Boot
+target/
+build/
+out/
+*.class
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp

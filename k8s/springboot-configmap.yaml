@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: springboot-config
+  namespace: demo-app
+data:
+  # Host matches the Kubernetes Service name for Postgres
+  DB_HOST: postgres-service
+  DB_PORT: "5432"
+  DB_NAME: itemdb
+  SERVER_PORT: "8080"
